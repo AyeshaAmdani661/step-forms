@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>step3</title>
+</head>
+<body>
+    <form>
+        <center>
+            <table width="470" height="40">
+                <tr>
+                    <td bgcolor="sky blue">
+                        <b>&nbsp;Step 1: Account</b>
+                    </td>
+                    <td bgcolor="sky blue">
+                        <b>&nbsp;Step 2: Personal Details</b>
+                    </td>
+                    <td bgcolor="gold">
+                        <b>&nbsp;Step 3: Your Review</b>
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <fieldset>
+            <legend>
+                <b>Your Review</b>
+            </legend>
+            <p>
+                <label for="referrer">
+                    <b>How did you hear about us?</b>
+                    <select name="referrer">
+                        <option value="google">Google</option>
+                        <option value="friend">Friend</option>
+                        <option value="advert">Advert</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <b>Would you visit again?</b>
+                    <br/>
+                    <input type="radio" name="rating" value="yes"><b>Yes</b>
+                    <input type="radio" name="rating" value="no"><b>No</b>
+                    <input type="radio" name="rating" value="maybe"><b>Maybe</b>
+                </label>
+            </p>
+            <p>
+                <label for="Comments:">
+                    <b>Comments:</b>
+                    <br/>
+                    <textarea name="comment" cols="30" rows="3" placeholder="Enter your comments here..."></textarea>
+                </label>
+            </p>
+            <label for="documents">
+                <b>Documents:</b>
+                <br/>
+                <input type="file" name="documents">
+            </label>
+            <br/>
+            <br/>
+            <label>
+                <input type="checkbox" name="subscribe" checked="checked" />
+                Sign me up for email updates
+            </label>
+            <br/>
+            <br/>
+            <a href="step2.html"><img src="images/back.png" alt="back"  width="100"></a>
+            <a href="index.html"><img src="images/submit.png" width="100"></a>
+        </fieldset>
+    </form>
+</body>
+</html>
